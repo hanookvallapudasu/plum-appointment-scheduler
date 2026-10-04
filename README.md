@@ -4,6 +4,9 @@ Hi! This repository is my submission for **Problem Statement 1: AI-Powered Appoi
 
 It is a backend service built with Node.js and Express that takes either typed text or scanned document/notes images and converts them into structured appointment JSON, resolving relative dates to `Asia/Kolkata` time and applying guardrails to catch ambiguous or missing details.
 
+🌐 **Live Cloud Demo (Render):** [https://plum-appointment-scheduler.onrender.com/api/docs](https://plum-appointment-scheduler.onrender.com/api/docs)  
+🩺 **Health Endpoint:** [https://plum-appointment-scheduler.onrender.com/health](https://plum-appointment-scheduler.onrender.com/health)
+
 ---
 
 ## Quick Start
