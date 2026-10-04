@@ -45,6 +45,11 @@ app.use((req, res, next) => {
 // Health check endpoint
 app.get('/health', appointmentController.getHealth);
 
+// Root endpoint: automatically redirect visitors to interactive API docs
+app.get('/', (req, res) => {
+  res.redirect('/api/docs');
+});
+
 // Interactive OpenAPI / Swagger Documentation
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
   customSiteTitle: 'Appointment Scheduler API Documentation'
