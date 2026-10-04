@@ -1,4 +1,4 @@
-# Plum SDE Intern Assignment: AI-Powered Appointment Scheduler
+# AI-Powered Appointment Scheduler
 
 Hi! This repository is my submission for **Problem Statement 1: AI-Powered Appointment Scheduler Assistant** for the Plum SDE Intern campus hiring process.
 
